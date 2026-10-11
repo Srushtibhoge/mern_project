@@ -108,6 +108,8 @@ export default function Home() {
             <Skill icon={<SiNextdotjs />} name="Next.js" />
             <Skill icon={<SiPython />} name="Python" />
             <Skill icon={<SiMongodb />} name="MongoDB" />
+            <Skill icon={<SiMongodb />} name="Express.js" />
+
 
           </div>
         </div>
@@ -182,7 +184,7 @@ function Skill({ icon, name }) {
       </div>
 
       <p className="mt-3 font-medium text-gray-700 dark:text-gray-200">
-        {name}
+        {name} 
       </p>
     </div>
   );
