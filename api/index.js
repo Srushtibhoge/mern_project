@@ -9,8 +9,8 @@ mongoose.connect(process.env.MONGO).then(()=>{
 }).catch((err)=>console.log('err',err))
 const app=express()
 app.use(express.json())
-app.listen(3000,()=>{
-    console.log('server is running on port 3000!!')
+app.listen(3001,()=>{
+    console.log('server is running on port 3001!!')
 })
 app.use('/api/user',userRoutes)
 app.use('/api/auth',authRoutes)
