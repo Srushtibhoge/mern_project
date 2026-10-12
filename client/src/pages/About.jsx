@@ -18,7 +18,7 @@ export default function About() {
         <p className="max-w-2xl text-sm text-gray-500 sm:text-base">
           Welcome to my blog! I'm a Full Stack Developer passionate about
           building modern web applications, exploring Generative AI, and
-          sharing my knowledge with the developer community.
+          sharing my knowledge with the developer communityy.
         </p>
 
         <div className="flex flex-wrap justify-center gap-4">
